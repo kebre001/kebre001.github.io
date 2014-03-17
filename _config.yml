@@ -3,16 +3,16 @@ safe: true
 lsi: false
 pygments: true
 permalink: /posts/:title
-title : Carlos Becker
-production_url : http://carlosbecker.com
+title : Kebre
+production_url : http://dev.kebre.net
 description: "Thougths, tutorials and hacks by Carlos Alexandro Becker."
-disqus_shortname: caarlos0blog
+disqus_shortname: kebre.net
 # analytics: UA-32899481-1
 gauges: 50f1f940613f5d2cfe000026
 exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components ]
 author :
-  name : Carlos Alexandro Becker
-  github : caarlos0
-  twitter : caarlos0
-  facebook : caarlos0
-  email: caarlos0@gmail.com
+  name : Kevin
+  github : kebre001
+  twitter : kebre001
+  facebook : kebre
+  email: kebre001[at]gmail.com
