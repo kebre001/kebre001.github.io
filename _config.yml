@@ -5,7 +5,7 @@ pygments: true
 permalink: /posts/:title
 title : Kebre
 production_url : http://dev.kebre.net
-description: "Thougths, tutorials and hacks by Carlos Alexandro Becker."
+description: "Thougths, tutorials and hacks by Kev."
 disqus_shortname: kebre.net
 # analytics: UA-32899481-1
 gauges: 50f1f940613f5d2cfe000026
