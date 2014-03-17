@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rake'
-gem 'rdiscount'
-gem 'jekyll'
+ruby '2.1.0'
 
+gem 'github-pages'
+gem 'rake'
 gem 'rmagick'
 

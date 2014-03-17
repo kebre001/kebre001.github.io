@@ -3,7 +3,6 @@ require 'rake'
 require 'yaml'
 require 'time'
 require 'open-uri'
-require 'RMagick'
 require "digest/md5"
 
 SOURCE = "."
@@ -49,11 +48,12 @@ end # task :post
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll serve"
+  system "bundle exec jekyll serve --watch --drafts"
 end # task :preview
 
 desc "Update icons based on your gravatar (define author email in _config.yml)!"
 task :icons do
+  require 'RMagick'
   puts "Getting author email from _config.yml..."
   config = YAML.load_file('_config.yml')
   author_email = config['author']['email']
@@ -79,7 +79,7 @@ task :icons do
   end
 
   puts "Creating favicon.ico..."
-  Magick::Image::read(origin).first.resize(16, 16).write("favicon.ico")
+  Magick::Image::read(origin).first.resize(32, 32).write("favicon.ico")
 
   [144, 114, 72, 57].each do |size|
     puts "Creating #{name_pre} icon..." % [size, size]
@@ -90,4 +90,14 @@ task :icons do
   File.delete origin
 end
 
+desc "Install libs required by theme"
+task :init do
+  puts "Downloading and installing required javascript plugins"
+  `npm install -g grunt-cli bower`
+  `npm install`
+  puts "Downloading Assets..."
+  `bower install`
+  puts "Building..."
+  `grunt`
+end
 
