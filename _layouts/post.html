@@ -1,10 +1,10 @@
 ---
-layout: layout
+layout: page
 ---
 
-<section class="content">
+<article>
   <h1>
-    <a href="{{ page.url }}">{{ page.title }}</a>
+    {{ page.title }}
   </h1>
 
   <section class="byline">
@@ -12,8 +12,9 @@ layout: layout
   </section>
 
   {{ content }}
+
   <div class="pull"></div>
   {% include twitter.html %}
   <hr>
   {% include disqus.html %}
-</section>
+</article>
