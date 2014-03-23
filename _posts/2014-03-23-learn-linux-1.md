@@ -14,7 +14,10 @@ You have to know basic networking
 - Subnet
 - Basic protocols (HTTP, FTP, SSH)
 
+Also basic computer hardware
 
+- RAM
+- CPU
 
 
 ## Good to know words
