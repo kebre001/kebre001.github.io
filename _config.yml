@@ -8,7 +8,7 @@ production_url : http://dev.kebre.net
 description: "Thougths, tutorials and hacks by Kev."
 disqus_shortname: kebrenet
 analytics: UA-21100802-5
-#gauges: 50f1f940613f5d2cfe000026
+#gauges: 
 exclude: [ Gemfile, Gemfile.lock, gems, _assets, bower_components ]
 author :
   name : Kevin
