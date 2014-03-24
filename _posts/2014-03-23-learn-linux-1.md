@@ -6,7 +6,7 @@ category: posts
 
 ## What to learn in this chapter
 How to create test envriments in a virtual machine.
-[Youtube](https://www.youtube.com/watch?v=fT9jzWkl4so&list=UUknZiM0b15EVDKFATOQGswg)
+[Youtube](https://www.youtube.com/watch?v=fT9jzWkl4so)
 
 ## Pre-requires
 You have to know basic networking
