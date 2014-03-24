@@ -38,6 +38,9 @@ Also basic computer hardware
 - [mv (move)](http://www.computerhope.com/unix/umv.htm#03)
 - [cp (copy)](http://www.computerhope.com/unix/ucp.htm#03)
 - [apt-get (install software)](http://www.computerhope.com/unix/apt-get.htm#03)
+- ls
+- cat
+- wget
 
 #####[More useful commands](http://www.linux.org/threads/more-useful-commands.4101/)
 
