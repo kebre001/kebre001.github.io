@@ -33,4 +33,11 @@ All of these can you find in the linux library with 'apt-get'
 - [Screen](http://www.gnu.org/software/screen/) (Runs multiple virtual terminals)
 
 
+## Installing on other computer
+If you dont want to run the linux distribution and want to runt it on another PC you can easily make a bootable USB with the ISO file.
+
+I use [imgburn](http://www.imgburn.com/index.php?act=Download) to burn to a CD
+
+And [Pen drive linux usb](http://www.pendrivelinux.com) for bootable USB
+
 
