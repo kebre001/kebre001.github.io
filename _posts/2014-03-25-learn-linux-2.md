@@ -28,5 +28,9 @@ Also software that is supposed to run as a daemon ends often with 'd', for examp
 
 All of these can you find in the linux library with 'apt-get'
 
+## Tools
+
+- [Screen](http://www.gnu.org/software/screen/) (Runs multiple virtual terminals)
+
 
 
